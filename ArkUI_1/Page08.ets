@@ -1,0 +1,32 @@
+@Entry
+@Component
+struct page8{
+  build(){
+    Row(){
+      Column({space:50}){
+        Slider({
+          value:50,
+          min:0,
+          max:100,
+          step:1,
+          style:SliderStyle.InSet
+        })
+          .showSteps(true)
+          .showTips(true)
+          .trackThickness(10)
+        Slider({
+          value:50,
+          min:0,
+          max:100,
+          step:1,
+          style:SliderStyle.OutSet
+        })
+          .showSteps(true)
+          .showTips(true)
+          .trackThickness(10)
+      }
+      .width("100%")
+    }
+    .height('100%')
+  }
+}

@@ -1,0 +1,60 @@
+@Entry
+@Component
+struct page11{
+  build(){
+    Scroll(){
+      Flex({direction:FlexDirection.Row, wrap:FlexWrap.Wrap, justifyContent:FlexAlign.SpaceEvenly}){
+        Column()
+          .width('30%')
+          .height(300)
+          .margin(5)
+          .backgroundColor(Color.Blue)
+        Column()
+          .width('30%')
+          .height(300)
+          .margin(5)
+          .backgroundColor(Color.Yellow)
+        Column()
+          .width('30%')
+          .height(300)
+          .margin(5)
+          .backgroundColor(Color.Pink)
+        Column()
+          .width('30%')
+          .height(300)
+          .margin(5)
+          .backgroundColor(Color.Blue)
+        Column()
+          .width('30%')
+          .height(300)
+          .margin(5)
+          .backgroundColor(Color.Yellow)
+        Column()
+          .width('30%')
+          .height(300)
+          .margin(5)
+          .backgroundColor(Color.Pink)
+        Column()
+          .width('30%')
+          .height(300)
+          .margin(5)
+          .backgroundColor(Color.Blue)
+        Column()
+          .width('30%')
+          .height(300)
+          .margin(5)
+          .backgroundColor(Color.Yellow)
+        Column()
+          .width('30%')
+          .height(300)
+          .margin(5)
+          .backgroundColor(Color.Pink)
+      }
+      .width('100%')
+      //.height('100%')
+    }
+    .height('100%')
+    .width('100%')
+
+  }
+}

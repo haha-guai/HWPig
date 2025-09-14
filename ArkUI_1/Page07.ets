@@ -1,0 +1,38 @@
+@Entry
+@Component
+struct page7{
+  build(){
+    Row(){
+      Column({space:20}){
+        Button("微信登录")
+          .width(150)
+          .type(ButtonType.Normal)
+          .borderRadius(10)
+          .backgroundColor(Color.Green)
+          .onClick(()=>{
+            console.log("请求微信登录");
+          })
+        Button("QQ登录")
+          .width(150)
+          .type(ButtonType.Normal)
+          .borderRadius(10)
+          .backgroundColor(Color.Green)
+          .onClick(()=>{
+            console.log("请求QQ登录");
+          })
+        Button("手机号登录")
+          .width(150)
+          .type(ButtonType.Normal)
+          .borderRadius(10)
+          .backgroundColor(Color.Green)
+          .onClick(()=>{
+            console.log("请求手机号登录");
+          })
+      }
+      .width("100%")
+      .alignItems(HorizontalAlign.Center)
+      .justifyContent(FlexAlign.Center)
+    }
+    .height("100%")
+  }
+}
