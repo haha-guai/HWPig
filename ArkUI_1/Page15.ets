@@ -12,7 +12,7 @@ struct page15{
           Text("checkBox")
           Checkbox()
             .select($$this.isMarry)
-          Button('改值')
+          Button(`${this.isMarry}`)
             .onClick(()=>{
               this.isMarry = !this.isMarry;
             })
